@@ -23,7 +23,7 @@ $(document).ready(function() {
   //console.log("ready");
   // timeout = setTimeout(setReadyToPlay, 10000);
   $("#theVideo").on('canplaythrough', canPlayThrough);
-  $("#theVideo").attr('src','vid/fp.mp4');
+  $("#theVideo").attr('src','http://s455689574.onlinehome.us/FPN/vid/fp.mp4');
 
   var whereAmI = window.location.href;
 
